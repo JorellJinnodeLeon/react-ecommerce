@@ -20,7 +20,7 @@ export default class Navbar extends Component
                         </Link>
                     </li>
                 </ul>
-                <Link to='/cart' className="m-auto">
+                <Link to='/cart' className="m-auto" style={{position:"absolute",right:"5rem"}}>
                     <ButtonContainer>
                         <span className="mr-1">
                             <i className="fas fa-cart-plus" />
