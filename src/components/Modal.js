@@ -24,7 +24,7 @@ export default class Modal extends Component {
                                             <br/><h5> Item added to the Cart</h5>
                                             <img src={img} className="img-fluid" alt="product" />
                                             <h5>{title}</h5>
-                                            <h5 className="text-muted" >Price : ₱ {price} </h5>
+                                            <h5 className="text-muted" >Price : $ {price} </h5>
                                             <Link to='/'>
                                                 <ButtonContainer onClick={()=>closeModal()}>
                                                     Store
@@ -36,6 +36,7 @@ export default class Modal extends Component {
                                                     Go to Cart
                                                 </ButtonContainer>
                                             </Link>
+                                            <br/><br/>
                                         </div>
                                     </div>
                                 </div>

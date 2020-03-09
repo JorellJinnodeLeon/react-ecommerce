@@ -34,7 +34,7 @@ export default function CartItem({item,value}) {
                 </div>
             </div>
             <div className="col-10 mx-auto col-lg-2">
-                <strong> Item Total : ₱ </strong> {total}
+                <strong> Item Total : $ </strong> {total}
             </div>
         </div>        
     );

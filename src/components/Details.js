@@ -33,7 +33,7 @@ export default class Details extends Component
                                         {company} 
                                     </span><br />
                                     <strong>
-                                        price : <span> ₱ </span> {price}
+                                        price : <span> $ </span> {price}
                                     </strong>
                                 </h4>
                                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
